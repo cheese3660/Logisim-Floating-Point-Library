@@ -37,7 +37,12 @@ public class IEEE754 extends Library {
         		new AddTool(new Mod()),
         		new AddTool(new FPProbe()),
         		new AddTool(new FPConst()),
-        		new AddTool(new Comparator())
+        		new AddTool(new Comparator()),
+        		new AddTool(new Root()),
+        		new AddTool(new Log()),
+        		new AddTool(new Exponentiate()),
+        		new AddTool(new Pow()),
+        		new AddTool(new LN()),
         });
     }
     
